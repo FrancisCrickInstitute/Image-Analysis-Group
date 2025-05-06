@@ -18,7 +18,7 @@ ml Anaconda3
 ## Step 3: Create Cellpose environment
 You then need to create the environment that will contain the Cellpose installation, using the following command:
 ```shell
-conda create --name cellpose-env python=3.8
+conda create --name cellpose-env python=3.11
 ```
 In this example, the environment has been named `cellpose-env`, but you can call it whatever you want. The terminal will produce output similar to the following, where `user_name` will be replaced with whatever your user name is:
 ```shell
@@ -43,9 +43,7 @@ conda activate cellpose-env
 ## Step 5: Install Cellpose
 At this point, it is important to note that you have merely created what is essentially an empty environment called `cellpose-env`. To actually install Cellpose within this environment, run the following series of commands:
 ```shell
-pip install cellpose
-pip uninstall torch
-conda install pytorch==1.12.0 cudatoolkit=11.3 -c pytorch
+pip install cellpose[gui]
 ```
 The terminal will produce a large amount of output as the necessary packages are installed.     Press `y` and `Enter` to proceed.
 
@@ -61,11 +59,27 @@ You can now deactivate your Cellpose environment by running the following:
 ```shell
 conda deactivate
 ```
+## Step 8 (Optional): Run Cellpose as a GUI
+To run the cellpose GUI you need to load VirtualGL before activating the conda environment for Cellpose. To load VirtualGL enter the following commands in the command line:
+```shell
+ml VirtualGL
+conda activate cellpose-env
+cellpose
+```
+Each step will take a few seconds
 
-## Step 8 (Optional): Run Cellpose from FIJI
+## Step 9 (Optional): Run Cellpose from FIJI
 It is possible to run Cellpose directly from FIJI. Instructions for installing the necessary FIJI Plugin can be found [here](https://github.com/BIOP/ijl-utilities-wrappers?tab=readme-ov-file#ib-fiji---cellpose-wrapper).
+To run from FIJI on OnDemand, you have to activate the environment before launching FIJI.
+For example:
+```shell
+conda activate cellpose-env
+```
+```shell
+(cellpose_env) ./ImageJ-linux64
+```
 
-## Step 9: Cite!
+## Step 10: Cite!
 If you use Cellpose in your work, be sure to cite the relevant paper:
 * Version 3 (Latest): Carsen Stringer and Marius Pachitariu. Cellpose3: one-click image restoration for improved cellular segmentation. _bioRxiv_ 2024.02.10.579780
 * Version 2: Marius Pachitariu and Carsen Stringer. Cellpose 2.0: how to train your own model. _Nature methods_, 19(12):1634–1641, 2022.
