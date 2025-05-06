@@ -75,6 +75,7 @@ For example:
 ```shell
 conda activate cellpose-env
 ```
+When the conda environment is activated, it's name will show up in parentheses in the command line, so, launching FIJI will look like this:
 ```shell
 (cellpose_env) ./ImageJ-linux64
 ```
