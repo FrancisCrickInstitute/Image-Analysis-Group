@@ -52,6 +52,6 @@ To install CellPose to run properly on a Jupyter notebook on the HPC cluster (**
 
 For a demonstration of running **Cellpose-SAM** on images, please see this notebook:
 
-👉 *(Insert link or relative path here)*
+👉[Crick_CellPose_SAM.ipynb](Crick_CellPose_SAM.ipynb)
 
 ---
