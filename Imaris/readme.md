@@ -21,7 +21,7 @@ You can book time through these machines through [PPMS](https://ppms.eu/crick/?L
 3. In the new window, select **License – Install / Upgrade License**.
 4. Choose **Define Floating License Server**.
 5. Enter the floating client license **Order  ID**:
-   `ch58-zne7-sd89-j75u`
+   `xffn-js3t-tya2-zdrh`
    and click **Download Client License**.
 6. When prompted for the **Floating License Server Name**, enter:  
    `imaris.thecrick.org`
