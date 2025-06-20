@@ -4,6 +4,9 @@
 
 > More detailed information on installing Cellpose can be found [here](https://github.com/MouseLand/cellpose?tab=readme-ov-file#installation) if needed.
 
+> ⚠️ **BEWARE** – the FIJI wrapper only works for cellpose version 3.0 (and below). If you have a newer version, you will have to create a new cellpose environment for FIJI to access an older version of it (see instructions below).
+
+
 ## Step 1: Open xterm
 When your GPU OnDemand Desktop session starts, right click and select `xterm` to open a terminal:
 
@@ -18,9 +21,9 @@ ml Anaconda3
 ## Step 3: Create Cellpose environment
 You then need to create the environment that will contain the Cellpose installation, using the following command:
 ```shell
-conda create --name cellpose-env python=3.11
+conda create --name cellpose-fiji python=3.11
 ```
-In this example, the environment has been named `cellpose-env`, but you can call it whatever you want. The terminal will produce output similar to the following, where `user_name` will be replaced with whatever your user name is:
+In this example, the environment has been named `cellpose-fiji`, but you can call it whatever you want. The terminal will produce output similar to the following, where `user_name` will be replaced with whatever your user name is:
 ```shell
 Retrieving notices: ...working... done
 Collecting package metadata (current_repodata.json): done
@@ -37,13 +40,13 @@ Press `y` and `Enter` to proceed.
 ## Step 4: Activate environment
 Activate your new Cellpose environment with the following command:
 ```shell
-conda activate cellpose-env
+conda activate cellpose-fiji
 ```
 
 ## Step 5: Install Cellpose
-At this point, it is important to note that you have merely created what is essentially an empty environment called `cellpose-env`. To actually install Cellpose within this environment, run the following series of commands:
+At this point, it is important to note that you have merely created what is essentially an empty environment called `cellpose-fiji`. To actually install Cellpose within this environment, run the following series of commands:
 ```shell
-pip install cellpose[gui]
+pip install cellpose==3.0
 ```
 The terminal will produce a large amount of output as the necessary packages are installed.     Press `y` and `Enter` to proceed.
 
@@ -63,7 +66,7 @@ conda deactivate
 To run the cellpose GUI you need to load VirtualGL before activating the conda environment for Cellpose. To load VirtualGL enter the following commands in the command line:
 ```shell
 ml VirtualGL
-conda activate cellpose-env
+conda activate cellpose-fiji
 cellpose
 ```
 Each step will take a few seconds
@@ -73,11 +76,11 @@ It is possible to run Cellpose directly from FIJI. Instructions for installing t
 To run from FIJI on OnDemand, you have to activate the environment before launching FIJI.
 For example:
 ```shell
-conda activate cellpose-env
+conda activate cellpose-fiji
 ```
 When the conda environment is activated, it's name will show up in parentheses in the command line, so, launching FIJI will look like this:
 ```shell
-(cellpose_env) ./ImageJ-linux64
+(cellpose-fiji) ./ImageJ-linux64
 ```
 
 ## Step 10: Cite!
