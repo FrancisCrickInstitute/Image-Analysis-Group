@@ -24,7 +24,7 @@ You can book time through these machines through [PPMS](https://ppms.eu/crick/?L
    `xffn-js3t-tya2-zdrh`
    and click **Download Client License**.
 6. When prompted for the **Floating License Server Name**, enter:  
-   `imaris.thecrick.org`
+   `10.27.241.150`
 7. Click **Install Licenses**.  
    *(You may need to enlarge the window to see this button.)*
 8. Click **Finish** and **restart Imaris** for the changes to take effect.
