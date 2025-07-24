@@ -10,24 +10,24 @@ So rather than installing it ourselves, it is available in the _apps_ folder in 
 ## What is QuPath 0.6.0?
 QuPath is a popular, open-source tool for digital pathology and whole slide imaging analysis. The new version (0.6.0) brings several new features and improvements.
 To learn more about what's new, see:
-👉 [QuPath v0.6.0 release notes & features](https://forum.image.sc/t/qupath-v0-6-0-now-available/114104)
+[QuPath v0.6.0 release notes & features](https://forum.image.sc/t/qupath-v0-6-0-now-available/114104)
 
 ---
 
-## Step 1: Start a Desktop Session
+### Step 1: Start a Desktop Session
 
 1. Log in to the HPC cluster via [Open OnDemand](https://ondemand.nemo.thecrick.org).
 2. Start a **Nemo desktop session** with the resources you need (CPU/GPU, memory...).
 
 ---
 
-## Step 2: Open a Terminal
+### Step 2: Open a Terminal
 
 - Once your desktop session starts, open a **terminal window**.
 
 ---
 
-## Step 3: Load the Singularity Module
+### Step 3: Load the Singularity Module
 
 Every time you open a new terminal, you must laod the Singularity module – the container platform.
 Type the following and press Enter:
@@ -38,7 +38,7 @@ ml Singularity/3.11.3
 
 ---
 
-## Step 4: Run QuPath
+### Step 4: Run QuPath
 
 Replace `path/to/your/data` with the folder where your data/project/images are stored.
 
@@ -60,7 +60,7 @@ singularity run -B /path/to/your/data:/data /camp/apps/containers/QuPath/0.6.0/q
 
 ---
 
-## Step 5: First-Time Setup – Select Your User Directory
+### Step 5: First-Time Setup – Select Your User Directory
 
 The first time you open QuPath, you will be asked to select a **User Directory**.
 - Please **create a new folder** (e.g., `qupath_v6`) inside your **lab-space directory** (not your home folder!).
