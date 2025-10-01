@@ -1,10 +1,10 @@
-# How to install Cellpose on OnDemand
+# How to install Cellpose for FIJI on OnDemand
 
 [Cellpose](https://github.com/MouseLand/cellpose) is a general model for cell and nuclear segmentation. The following is a simple, step-by-step guide to installing Cellpose on [OnDemand](https://openondemand.org/).
 
 > More detailed information on installing Cellpose can be found [here](https://github.com/MouseLand/cellpose?tab=readme-ov-file#installation) if needed.
 
-> ⚠️ **BEWARE** – the FIJI wrapper only works for cellpose version 3.0 (and below). If you have a newer version, you will have to create a new cellpose environment for FIJI to access an older version of it (see instructions below).
+> ⚠️ **BEWARE** – the FIJI wrapper only works for cellpose version 3.0 (and below). If you have a newer version, you will have to create a new separate cellpose environment for FIJI to access an older version of it (see instructions below).
 
 
 ## Step 1: Open xterm
@@ -62,16 +62,9 @@ You can now deactivate your Cellpose environment by running the following:
 ```shell
 conda deactivate
 ```
-## Step 8 (Optional): Run Cellpose as a GUI
-To run the cellpose GUI you need to load VirtualGL before activating the conda environment for Cellpose. To load VirtualGL enter the following commands in the command line:
-```shell
-ml VirtualGL
-conda activate cellpose-fiji
-cellpose
-```
-Each step will take a few seconds
+<br>
 
-## Step 9 (Optional): Run Cellpose from FIJI
+# Run Cellpose from FIJI
 It is possible to run Cellpose directly from FIJI. Instructions for installing the necessary FIJI Plugin can be found [here](https://github.com/BIOP/ijl-utilities-wrappers?tab=readme-ov-file#ib-fiji---cellpose-wrapper).
 To run from FIJI on OnDemand, you have to activate the environment before launching FIJI.
 For example:
@@ -83,7 +76,28 @@ When the conda environment is activated, it's name will show up in parentheses i
 (cellpose-fiji) ./ImageJ-linux64
 ```
 
-## Step 10: Cite!
+## Setting up TrackMate Cellpose
+The FIJI plugin [Trackmate](https://imagej.net/plugins/trackmate/) has a detector module that relies on [cellpose](https://imagej.net/plugins/trackmate/detectors/trackmate-cellpose) to segment cells in 2D. It is not included in TrackMate and must be installed separately. We can use the `cellpose-fiji` environment we just created.
+
+### Step 1: Install the Trackmate-Cellpose plugin in FIJI
+In FIJI, go to _Help > Update..._, which will open a window with the plugins that need updating. On the bottom left corner, slick on _Manage Update Sites_. Now you can look for _"TrackMate-Cellpose"_. Click on the check box and restart FIJI once it has been installed. 
+
+### Step 2: Specify where cellpose lives when running TrackMate
+Once you have your image open and select _Cellpose_ as your detector model of choice, you will be prompted with a window that asks for the **Path to Cellpose/Python executable**. You can easily find the path of your installation by going back to your Terminal/Anaconda Prompt and typing ```conda env list```. This should show you a list of all your available environments, `cellpose-fiji` should appear with an associated path. Copy and paste that into the TrackMate window, followed by "/bin/python". <br>
+Select your desired parameters, click _Next_ and use TrackMate as usual.
+
+
+# Run Cellpose as a GUI
+To run the cellpose Graphical User Interface, you need to load VirtualGL before activating the conda environment for Cellpose. To load VirtualGL enter the following commands in the command line:
+```shell
+ml VirtualGL
+conda activate cellpose-fiji
+cellpose
+```
+Each step will take a few seconds
+<br>
+
+# Cite!
 If you use Cellpose in your work, be sure to cite the relevant paper:
 * Version 3 (Latest): Carsen Stringer and Marius Pachitariu. Cellpose3: one-click image restoration for improved cellular segmentation. _bioRxiv_ 2024.02.10.579780
 * Version 2: Marius Pachitariu and Carsen Stringer. Cellpose 2.0: how to train your own model. _Nature methods_, 19(12):1634–1641, 2022.
