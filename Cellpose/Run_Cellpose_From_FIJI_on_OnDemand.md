@@ -82,9 +82,17 @@ The FIJI plugin [Trackmate](https://imagej.net/plugins/trackmate/) has a detecto
 ### Step 1: Install the Trackmate-Cellpose plugin in FIJI
 In FIJI, go to _Help > Update..._, which will open a window with the plugins that need updating. On the bottom left corner, slick on _Manage Update Sites_. Now you can look for _"TrackMate-Cellpose"_. Click on the check box and restart FIJI once it has been installed. 
 
+![image](https://github.com/FrancisCrickInstitute/Image-Analysis-Group/blob/master/assets/trackmate-cellpose-updater-screenshot.png)
+
+
 ### Step 2: Specify where cellpose lives when running TrackMate
-Once you have your image open and select _Cellpose_ as your detector model of choice, you will be prompted with a window that asks for the **Path to Cellpose/Python executable**. You can easily find the path of your installation by going back to your Terminal/Anaconda Prompt and typing ```conda env list```. This should show you a list of all your available environments, `cellpose-fiji` should appear with an associated path. Copy and paste that into the TrackMate window, followed by "/bin/python". <br>
-Select your desired parameters, click _Next_ and use TrackMate as usual.
+Once you have your image open and select _Cellpose_ as your detector model of choice, you will be prompted with a window that asks for the **Path to Cellpose/Python executable**:
+* You can easily find the path of your installation by going back to your Terminal/Anaconda Prompt and typing ```conda env list```.
+* This should show you a list of all your available environments, `cellpose-fiji` should appear with an associated path.
+* Copy and paste that into the TrackMate window, followed by _"/bin/python"_.
+* Select your desired parameters, click _Next_ and use TrackMate as usual.
+
+![image](https://github.com/FrancisCrickInstitute/Image-Analysis-Group/blob/master/assets/trackmate-cellpose-env-screenshot.png)
 
 
 # Run Cellpose as a GUI
