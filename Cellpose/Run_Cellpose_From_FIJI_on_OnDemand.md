@@ -1,6 +1,6 @@
 # How to install Cellpose for FIJI on OnDemand
 
-[Cellpose](https://github.com/MouseLand/cellpose) is a general model for cell and nuclear segmentation. The following is a simple, step-by-step guide to installing Cellpose on [OnDemand](https://openondemand.org/).
+[Cellpose](https://github.com/MouseLand/cellpose) is a general model for cell and nuclear segmentation. The following is a simple, step-by-step guide to installing Cellpose on [OnDemand](https://openondemand.org/). More information on how to access OnDemand at the Crick can be found [in the wiki](https://wiki.thecrick.org/display/HPC/OnDemand).
 
 > More detailed information on installing Cellpose can be found [here](https://github.com/MouseLand/cellpose?tab=readme-ov-file#installation) if needed.
 
@@ -23,7 +23,7 @@ You then need to create the environment that will contain the Cellpose installat
 ```shell
 conda create --name cellpose-fiji python=3.11
 ```
-In this example, the environment has been named `cellpose-fiji`, but you can call it whatever you want. The terminal will produce output similar to the following, where `user_name` will be replaced with whatever your user name is:
+In this example, we assigned `cellpose-fiji` as the environment name (with the flag `--name`) and we requested version `3.11` for python. The terminal will produce output similar to the following, where `user_name` will be replaced with whatever your user name is:
 ```shell
 Retrieving notices: ...working... done
 Collecting package metadata (current_repodata.json): done
@@ -35,20 +35,21 @@ environment location: /camp/home/user_name/.conda/envs/cellpose-env
 
 Proceed ([y]/n)?
 ```
-Press `y` and `Enter` to proceed.
+Press `y` and `Enter` to proceed when prompted.
 
 ## Step 4: Activate environment
-Activate your new Cellpose environment with the following command:
+Activate your new Cellpose environment with the following commands:
 ```shell
 conda activate cellpose-fiji
 ```
+> ⚠️ **NOTE** – the first time you use `conda`, this command might return an error suggesting you initialise `conda`. To do so, run `conda init` and then try again.
 
 ## Step 5: Install Cellpose
 At this point, it is important to note that you have merely created what is essentially an empty environment called `cellpose-fiji`. To actually install Cellpose within this environment, run the following series of commands:
 ```shell
 pip install cellpose==3.0
 ```
-The terminal will produce a large amount of output as the necessary packages are installed.     Press `y` and `Enter` to proceed.
+The terminal will produce a large amount of output as the necessary packages are installed.     Press `y` and `Enter` to proceed when prompted.
 
 ## Step 6: Verify installation
 To test whether the installation was successful, run the following:
