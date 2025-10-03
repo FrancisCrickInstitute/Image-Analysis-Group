@@ -8,10 +8,10 @@ Images are essentially grids of numbers and image analysis allows for the transl
 
 # How Can We Help?
 
-Feel free to get in touch at any time. We sit in Bioinformatics Suite in 3NE - we're right in front of the doors as you walk in. Otherwise, reach out on Slack or just email:
+Feel free to get in touch at any time. We sit in Bioinformatics Suite in 3NE - we're right in front of the doors as you walk in. Otherwise email bioimage-analysis@crick.ac.uk, or Slack/email:
 * [Dave](https://www.crick.ac.uk/research/find-a-researcher/david-barry)
-* [Todd](https://www.crick.ac.uk/research/find-a-researcher/todd-fallesen) – **on paternity leave until the 16th October!**
+* [Todd](https://www.crick.ac.uk/research/find-a-researcher/todd-fallesen) – **on paternity leave until the 16th October**
 * [Sara](https://www.crick.ac.uk/research/find-a-researcher/sara-salgueiro-torres)
 * [Stefania](https://intranet.crick.ac.uk/people/stefania-marcotti)
 
-See [here](./pages/OnDemand.md) for instructions on how to install and run image analysis software on [OnDemand](https://openondemand.org/). If you're looking for something else, or just want to find out more about what we do, please see our [Wiki](https://github.com/FrancisCrickInstitute/CALM/wiki).
+See [here](./pages/OnDemand.md) for instructions on how to install and run image analysis software on [OnDemand]([https://openondemand.org/](https://ondemand.nemo.thecrick.org/)). If you're looking for something else, or just want to find out more about what we do, please see our [Wiki](https://github.com/FrancisCrickInstitute/CALM/wiki).
