@@ -21,7 +21,7 @@ cd Fiji.app
 chmod u+x ImageJ-linux64
 
 current_directory=$(pwd)
-rm 
+
 # Create a file in the home directory to save the current directory
 output_file="$HOME/Run_Fiji.sh"
 
