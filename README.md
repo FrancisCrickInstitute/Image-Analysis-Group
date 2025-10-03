@@ -14,4 +14,4 @@ Feel free to get in touch at any time. We sit in Bioinformatics Suite in 3NE - w
 * [Sara](https://www.crick.ac.uk/research/find-a-researcher/sara-salgueiro-torres)
 * [Stefania](https://intranet.crick.ac.uk/people/stefania-marcotti)
 
-See [here](./pages/OnDemand.md) for instructions on how to install and run image analysis software on [OnDemand]([https://openondemand.org/](https://ondemand.nemo.thecrick.org/)). If you're looking for something else, or just want to find out more about what we do, please see our [Wiki](https://github.com/FrancisCrickInstitute/CALM/wiki).
+See [here](./pages/OnDemand.md) for instructions on how to install and run image analysis software on [OnDemand](https://ondemand.nemo.thecrick.org/). If you're looking for something else, or just want to find out more about what we do, please see our [Wiki](https://github.com/FrancisCrickInstitute/CALM/wiki).
