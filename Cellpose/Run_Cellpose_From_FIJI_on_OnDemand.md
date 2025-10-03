@@ -84,6 +84,7 @@ Once you have your image open and select _Cellpose_ as your detector model of ch
 * This should show you a list of all your available environments, `cellpose-fiji` should appear with an associated path.
 * Copy and paste that into the TrackMate window, followed by `/bin/python`.
 * Select your desired parameters, click _Next_ and use TrackMate as usual.
+> ⚠️ **NOTE** – the path in the screenshot below will change from user to user.
 
 ![image](https://github.com/FrancisCrickInstitute/Image-Analysis-Group/blob/master/assets/trackmate-cellpose-env-screenshot.png)
 
