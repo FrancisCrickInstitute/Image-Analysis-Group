@@ -67,15 +67,7 @@ conda deactivate
 
 # Run Cellpose from FIJI
 It is possible to run Cellpose directly from FIJI. Instructions for installing the necessary FIJI Plugin can be found [here](https://github.com/BIOP/ijl-utilities-wrappers?tab=readme-ov-file#ib-fiji---cellpose-wrapper).
-To run from FIJI on OnDemand, you have to activate the environment before launching FIJI.
-For example:
-```shell
-conda activate cellpose-fiji
-```
-When the conda environment is activated, it's name will show up in parentheses in the command line, so, launching FIJI will look like this:
-```shell
-(cellpose-fiji) ./ImageJ-linux64
-```
+Open FIJI. If you have never installed FIJI on your NEMO, follow [these instructions](https://github.com/FrancisCrickInstitute/Image-Analysis-Group/blob/master/Fiji/readme.md).
 
 ## Setting up TrackMate Cellpose
 The FIJI plugin [Trackmate](https://imagej.net/plugins/trackmate/) has a detector module that relies on [cellpose](https://imagej.net/plugins/trackmate/detectors/trackmate-cellpose) to segment cells in 2D. It is not included in TrackMate and must be installed separately. We can use the `cellpose-fiji` environment we just created.
@@ -90,7 +82,7 @@ In FIJI, go to _Help > Update..._, which will open a window with the plugins tha
 Once you have your image open and select _Cellpose_ as your detector model of choice, you will be prompted with a window that asks for the **Path to Cellpose/Python executable**:
 * You can easily find the path of your installation by going back to your Terminal/Anaconda Prompt and typing ```conda env list```.
 * This should show you a list of all your available environments, `cellpose-fiji` should appear with an associated path.
-* Copy and paste that into the TrackMate window, followed by _"/bin/python"_.
+* Copy and paste that into the TrackMate window, followed by `/bin/python`.
 * Select your desired parameters, click _Next_ and use TrackMate as usual.
 
 ![image](https://github.com/FrancisCrickInstitute/Image-Analysis-Group/blob/master/assets/trackmate-cellpose-env-screenshot.png)
