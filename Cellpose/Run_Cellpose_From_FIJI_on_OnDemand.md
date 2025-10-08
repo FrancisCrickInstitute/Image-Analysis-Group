@@ -10,7 +10,7 @@
 ## Step 1: Open Terminal
 When your GPU OnDemand Desktop session starts, right click and select `Open Terminal Here` or click on the Terminal icon at the bottom of the desktop:
 
-![image](https://github.com/FrancisCrickInstitute/Image-Analysis-Group/blob/master/assets/open-terminal-xfce-od-screenshot.png)
+![image](../assets/open-terminal-xfce-od-screenshot.png)
 
 ## Step 2: Load Anaconda
 You need to set up a [conda](https://en.wikipedia.org/wiki/Conda_(package_manager)) environment, which will contain your Cellpose installation. To do this, you first need to load [Anaconda](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)). Type the following in your terminal window and press `Enter`:
@@ -75,7 +75,7 @@ The FIJI plugin [Trackmate](https://imagej.net/plugins/trackmate/) has a detecto
 ### Step 1: Install the Trackmate-Cellpose plugin in FIJI
 In FIJI, go to _Help > Update..._, which will open a window with the plugins that need updating. On the bottom left corner, slick on _Manage Update Sites_. Now you can look for _"TrackMate-Cellpose"_. Click on the check box and restart FIJI once it has been installed. 
 
-![image](https://github.com/FrancisCrickInstitute/Image-Analysis-Group/blob/master/assets/trackmate-cellpose-updater-od-screenshot.png)
+![image](../assets/trackmate-cellpose-updater-od-screenshot.png)
 
 
 ### Step 2: Specify where cellpose lives when running TrackMate
@@ -86,7 +86,7 @@ Once you have your image open and select _Cellpose_ as your detector model of ch
 * Select your desired parameters, click _Next_ and use TrackMate as usual.
 > ⚠️ **NOTE** – the path in the screenshot below will change from user to user.
 
-![image](https://github.com/FrancisCrickInstitute/Image-Analysis-Group/blob/master/assets/trackmate-cellpose-env-od-screenshot.png)
+![image](../assets/trackmate-cellpose-env-od-screenshot.png)
 
 
 # Run Cellpose as a GUI
