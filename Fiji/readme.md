@@ -3,11 +3,13 @@
 If you need to install plugins or customise FIJI for your analysis, follow these steps to install your own version.
 
 More information about how to access OnDemand at the Crick can be found in the [Crick HPC Wiki](https://wiki.thecrick.org/display/HPC/OnDemand).
+<br><br>
+> ⚠️ **NOTE – you'll only need to run these instructions once. Afterwards, the software will be saved in your NEMO storage**.
 
 ---
 
 ## ⚠️ Before You Start
-Your home directory has very limited storage**, so FIJI should **not** be installed there directly.
+Your home directory has very **limited storage**, so FIJI should **not** be installed there directly.
 
 Instead, you should **softlink your home working directory** into your **lab** or **STP** shared space (which has much more storage).
 
@@ -15,10 +17,13 @@ If this hasn’t been done yet (or you're unsure), please contact the **HPC team
 
 ---
 ## Step 1: Open an OnDemand Desktop and Launch a Terminal
-1. Start a new OnDemand Desktop session (the `ncpu` partition is sufficient for these purposes).
+1. Start a new OnDemand Desktop session. Select `Xfce` as your Desktop Environment and `ncpu` partition.
 You can find detailed instructions here:
 [Crick OnDemand Documentation](https://wiki.thecrick.org/display/HPC/OnDemand)
-2. Once your desktop session starts, **right-click** anywhere on the desktop and select *"Open Terminal Here"*, or slick the **Terminal icon** at the bottom of the desktop.
+![NEMO Desktop options](https://github.com/FrancisCrickInstitute/Image-Analysis-Group/blob/master/assets/OD-desktop-env-partition-screenshot.png)
+
+2. Once your desktop session starts, **right-click** anywhere on the desktop and select *"Open Terminal Here"*, or click the **Terminal icon** at the bottom of the desktop.
+
 ![Open Terminal Screenshot](https://github.com/FrancisCrickInstitute/Image-Analysis-Group/blob/master/assets/open-terminal-xfce-od-screenshot.png)
 
 ---
@@ -27,7 +32,7 @@ You can find detailed instructions here:
 1. Go to the folder on NEMO where you want to install FIJI.
 Example:
 ```bash
-cd /nemo/home/<your-user-name>/working/<your-user-name>/software/
+cd /nemo/home/your-user-name/working/your-user-name/software/
 ```
 2. Download the FIJI installation script by clicking the link below:
  👉 [install_FIJI_w_download.sh](https://github.com/FrancisCrickInstitute/CALM/blob/master/Fiji/install_FIJI_w_download.sh)
@@ -40,7 +45,7 @@ In your OnDemand terminal:
 
 1. Navigate to the folder where you downloaded the installer:
 ```bash
-cd /nemo/home/<your-user-name>/working/<your-user-name>/software/
+cd /nemo/home/your-user-name/working/your-user-name/software/
    ```
 2. Run the installation script:
    ```bash
