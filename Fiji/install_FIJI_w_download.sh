@@ -23,7 +23,7 @@ chmod u+x ImageJ-linux64
 current_directory="$(pwd)"
 
 # Create a file in the home directory to save the current directory
-output_file="$HOME/Run_Fiji_test.sh"
+output_file="$HOME/Run_Fiji.sh"
 
 {
   echo "cd \"$current_directory\""
