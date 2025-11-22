@@ -10,7 +10,7 @@ Images are essentially grids of numbers and image analysis allows for the transl
 
 Feel free to get in touch at any time. We sit in Bioinformatics Suite in 3NE - we're right in front of the doors as you walk in. Otherwise email bioimage-analysis@crick.ac.uk, or Slack/email:
 * [Dave](https://www.crick.ac.uk/research/find-a-researcher/david-barry)
-* [Todd](https://www.crick.ac.uk/research/find-a-researcher/todd-fallesen) – **on paternity leave until the 16th October**
+* [Todd](https://www.crick.ac.uk/research/find-a-researcher/todd-fallesen)
 * [Sara](https://www.crick.ac.uk/research/find-a-researcher/sara-salgueiro-torres)
 * [Stefania](https://intranet.crick.ac.uk/people/stefania-marcotti)
 
