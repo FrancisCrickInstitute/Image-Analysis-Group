@@ -16,18 +16,7 @@ You can book time through these machines through [PPMS](https://ppms.eu/crick/?L
 
 ## How to Set Up and Access a Floating License
 
-1. **Start Imaris**.
-2. Go to **File → Preferences**, then click on **Imaris Configurator** at the bottom of the Preferences dialog.
-3. In the new window, select **License – Install / Upgrade License**.
-4. Choose **Define Floating License Server**.
-5. Enter the floating client license **Order  ID**:
-   `xffn-js3t-tya2-zdrh`
-   and click **Download Client License**.
-6. When prompted for the **Floating License Server Name**, enter:  
-   `10.27.241.150`
-7. Click **Install Licenses**.  
-   *(You may need to enlarge the window to see this button.)*
-8. Click **Finish** and **restart Imaris** for the changes to take effect.
+Please follow [the instructions](https://intranet.crick.ac.uk/guides/document/imaris-instructions) available on the Intranet.
 
 ## Important notes
 - 🔒 **Licenses are limited**, so please:
