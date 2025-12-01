@@ -21,12 +21,12 @@ If this hasn’t been done yet (or you're unsure), please contact the **HPC team
 You can find detailed instructions here:
 [Crick OnDemand Documentation](https://wiki.thecrick.org/display/HPC/OnDemand)
 
-![NEMO Desktop options](../assets/OD-desktop-env-partition-screenshot.png)
+![NEMO Desktop options](../../assets/OD-desktop-env-partition-screenshot.png)
 
 
 2. Once your desktop session starts, **right-click** anywhere on the desktop and select *"Open Terminal Here"*, or click the **Terminal icon** at the bottom of the desktop.
 
-![Open Terminal Screenshot](../assets/open-terminal-xfce-od-screenshot.png)
+![Open Terminal Screenshot](../../assets/open-terminal-xfce-od-screenshot.png)
 
 ---
 
@@ -37,7 +37,8 @@ Example:
 cd /nemo/home/your-user-name/working/your-user-name/software/
 ```
 2. Download the FIJI installation script by clicking the link below:
- 👉 [install_FIJI_w_download.sh](https://github.com/FrancisCrickInstitute/CALM/blob/master/Fiji/install_FIJI_w_download.sh)
+ 👉 [install_FIJI_w_download.sh](https://github.com/FrancisCrickInstitute/Image-Analysis-Group/blob/master/software_instructions/Fiji/install_FIJI_w_download.sh)
+
 
 ---
 
