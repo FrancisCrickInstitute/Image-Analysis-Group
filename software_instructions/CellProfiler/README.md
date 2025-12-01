@@ -11,7 +11,7 @@ You may find it useful to have your .conda and .cache home directories soft-link
 
 A bit of linux/command line experience would help for now. We're hoping to make it easier
 ### Files:
-There are three files that are used for installation and running. You can download them from The CALM Github Page for [CellProfiler](https://github.com/FrancisCrickInstitute/CALM/tree/master/CellProfiler).
+There are three files that are used for installation and running. You can download them from the [CellProfiler folder](https://github.com/FrancisCrickInstitute/Image-Analysis-Group/tree/master/software_instructions/CellProfiler).
 
 install_cellprofiler.sh
 
