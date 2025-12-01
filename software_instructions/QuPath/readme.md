@@ -1,5 +1,5 @@
 #### Installing QuPath (version 0.5.1) on HPC the "easy way"
-* Download [install_QuPath5.1_w_download.sh](https://github.com/FrancisCrickInstitute/CALM/blob/master/software_instuctions/QuPath/install_QuPath5.1_w_download.sh) into a folder in your nemo space to which you want to install QuPath
+* Download [install_QuPath5.1_w_download.sh](https://github.com/FrancisCrickInstitute/Image-Analysis-Group/blob/master/software_instructions/QuPath/install_QuPath5.1_w_download.sh) into a folder in your nemo space to which you want to install QuPath
 * Open up an OnDemand GPU Desktop. For instructions on how to do this, see [this documentation].
 * Open up a terminal in OnDemand (right click anywhere on the screen and open up xterm)
 * Navigate to the folder on Nemo in which you put **install_QuPath5.1_w_download.sh**
