@@ -28,4 +28,4 @@ External events:
 For internal events, please check [our events page](https://intranet.crick.ac.uk/group/514/events) on the IntraNet.
 
 # Software instructions (internal)
-You can find information on how to install software on OnDemand following the relevant instructions in [this folder](./software_instructions/).
+You can find information on how to install software on OnDemand following the relevant instructions [here](./software_instructions/OnDemand/OnDemand.md).
