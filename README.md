@@ -1,7 +1,7 @@
 Images are essentially grids of numbers and image analysis allows for the translation of these numbers into insights. Talk to an image analyst prior to acquiring any image data - we're happy to provide all the training you need.
 
 # Contacts
-You can contact us using this email address: [bioimage-analysis@crick.ac.uk](bioimage-analysis@crick.ac.uk). If you work at the Crick, you can also reach out via Slack (#image-analysis) or stop by the Bioinformatics Suite in 3NE - we're right in front of the doors as you walk in.
+You can contact us using this email address: bioimage-analysis@crick.ac.uk. If you work at the Crick, you can also reach out via Slack (#image-analysis) or stop by the Bioinformatics Suite in 3NE - we're right in front of the doors as you walk in.
 
 # Who we are
 We are a team part of Advanced Light Microscopy (CALM). You can find information about each of us below!
