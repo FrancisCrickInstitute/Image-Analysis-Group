@@ -88,16 +88,68 @@ Once you have your image open and select _Cellpose_ as your detector model of ch
 
 ![image](../../assets/trackmate-cellpose-env-od-screenshot.png)
 
+---
 
-# Run Cellpose as a GUI
-To run the cellpose Graphical User Interface, you need to load VirtualGL before activating the conda environment for Cellpose. To load VirtualGL enter the following commands in the command line:
+# Run Cellpose as a Graphical User Interface (GUI)
+This is **separate** from the FIJI Cellpose wrapper, which uses the Cellpose v3 engine *without* the GUI. So we will need to create a separate conda environment for the GUI app.
+
+## 1. Start a fresh terminal
+If you are currently inside another environment:
+```shell
+conda deactivate
+```
+Or simply open a new terminal session.
+
+## 2. Create a dedicated environment for the GUI
+```shell
+conda create --name cellpose-gui python=3.10
+```
+Respond `y` when prompted.
+
+## 3. Load VirtualGL
+To run the cellpose Graphical User Interface, you need to load VirtualGL before activating the conda environment for Cellpose. To load VirtualGL enter the following command:
 ```shell
 ml VirtualGL
-conda activate cellpose-fiji
-cellpose
 ```
+
+## 4. Activate the environment
+```shell
+conda activate cellpose-gui
+```
+
+## 5. Install Cellpose with GUI support
+```shell
+python -m pip install "cellpose[gui]"
+```
+
+## 6. Verify the installation
+To test whether the installation was successful, run the following:
+```shell
+cellpose --help
+```
+If the installation was successful, this should produce a list of all the parameters that can be used when running Cellpose.
+
+## 7. Run the Cellpose GUI
+```shell
+python -m cellpose
+```
+
+**If you are working with 3D stacks**, open the GUI by instead running:
+```shell
+python -m cellpose --Zstack
+```
+
 Each step will take a few seconds
 <br>
+
+## After installation
+Once you have successfully installed cellpose, you can access the app every time by running in the terminal:
+```shell
+ml VirtualGL
+python -m cellpose
+```
+
+----
 
 # Cite!
 If you use Cellpose in your work, be sure to cite the relevant paper:
