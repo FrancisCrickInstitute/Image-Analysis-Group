@@ -21,6 +21,8 @@ External events:
 * [Machine-learning based image analysis with ilastik](https://www.crick.ac.uk/whats-on/machine-learning-based-image-analysis-with-ilastik), London (UK), 27/03/2026. Please note that this event is only open to attendees from the partner universities (Imperial College London, University College London, King's College London).
 * [Introduction to image analysis workshop](https://www.rms.org.uk/rms-event-calendar/2026-events/introduction-to-image-analysis-2026.html), Cardiff (UK), 18-20/05/2026. Organised with the support of the Royal Microscopical Society.
 * [Microscopy: multi-dimensional imaging and analysis](https://www.crick.ac.uk/whats-on/microscopy-multi-dimensional-imaging-and-analysis-0), London (UK), 14-18/09/2026.
+* [Introduction to image analysis workshop](https://www.crick.ac.uk/whats-on/introduction-to-image-analysis-1), London (UK), 02-04/11/2026.
+* [Image analysis for Correlative Light and Electron Microscopy (CLEM) workshop](https://www.crick.ac.uk/whats-on/image-analysis-for-correlative-light-and-electron-microscopy-clem), London (UK), 30/11-04/12/2026.
 
 For internal events, please check [our events page](https://intranet.crick.ac.uk/group/514/events) on the IntraNet.
 
