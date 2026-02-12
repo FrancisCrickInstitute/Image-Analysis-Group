@@ -55,7 +55,7 @@ singularity run -B /path/to/your/data:/data /camp/apps/containers/QuPath/0.6.0/q
 ```
 
 **Important:**
-- You must replace `/path/to/your/data` with the actual path to your data on the cluster (for example, `/camp/lab/labname/yourusername/proj-name`).
+- You must replace `/path/to/your/data` with the actual path to your data on the cluster (for example, `/camp/lab/labname/yourusername`).
 - Your data will be accessible inside QuPath at the `/data` folder.
 
 ---
@@ -70,14 +70,28 @@ The first time you open QuPath, you will be asked to select a **User Directory**
 
 ---
 
+## Accessing your data in QuPath
+
+When you open a project/image or are selecting your user directory, a file browser window will appear. **Important**: this window opens in "Home" by default, so your home directory, but this is NOT where your data is located. 
+
+Follow these steps to navigate to your data:
+
+1. In the file browser, click on **"Other locations"** (on the left sidebar).
+2. Select **"Computer"** to access the root file system.
+3. Navigate to the **"data"** folder.
+4. You will now see the path you specified when launching QuPath in the terminal (step 4). For example, `/camp/lab/labname/yourusername`.
+From here, you can navigate to your project files.
+
+**Note:** once you navigate into the `/data` folder, you won't be able to navigate backwards to other system locations, so make sure the `/path/to/your/data` includes all the folders you need to access in your QuPath project.
+
+---
+
 ## Need Help? Contact Us!
 
 If you have any questions or run into any issues, we're here to help. Reach out to the Image Analysis team in CALM:
 
 - **Email**: [bioimage-analysis@crick.ac.uk](mailto:bioimage-analysis@crick.ac.uk)
-- **Slack**:
-  - Sara Salgueiro Torres
-  - Dave Barry
+- **Slack**: #image-analysis
  
 Happy analysing!
 
