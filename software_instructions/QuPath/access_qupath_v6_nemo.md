@@ -76,9 +76,11 @@ When you open a project/image or are selecting your user directory, a file brows
 
 Follow these steps to navigate to your data:
 
-1. In the file browser, click on **"Other locations"** (on the left sidebar).
+1. In the file browser, click on **"Other locations"** (on the left sidebar)
 2. Select **"Computer"** to access the root file system.
 3. Navigate to the **"data"** folder.
+![QuPath data location](../../assets/qupath_v6_access_data.png)
+
 4. You will now see the path you specified when launching QuPath in the terminal (step 4). For example, `/camp/lab/labname/yourusername`.
 From here, you can navigate to your project files.
 
