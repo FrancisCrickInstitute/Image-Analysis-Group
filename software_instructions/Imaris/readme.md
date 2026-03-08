@@ -22,3 +22,25 @@ Please follow [the instructions](https://intranet.crick.ac.uk/guides/document/im
 - 🔒 **Licenses are limited**, so please:
   - Only use Imaris when needed.
   - **Log out and close Imaris** when you're done to free up the license for your fellow researchers!
+
+---
+
+## Troubleshooting
+
+### Cannot connect to the license server
+- Ensure you are connected to the **Crick network** or **Crick VPN** if working remotely.
+- Try restarting Imaris after confirming your VPN connection is active.
+- If the problem persists, contact the CALM team or check the `#hpc` Slack channel.
+
+### "No licenses available" error
+- All floating licenses are currently in use. Wait and try again later.
+- Check whether you (or a colleague) have an Imaris session open that is no longer being used — closing idle sessions frees up licenses immediately.
+
+### Imaris crashes on launch or during use
+- Ensure the workstation or VM meets the memory requirements for your dataset (large 3D/4D files can be very demanding).
+- Try reducing the dataset size or resolution before loading.
+- Contact the CALM team if crashes persist: bioimage-analysis@crick.ac.uk
+
+### Cannot book a workstation on PPMS
+- Visit [PPMS](https://ppms.eu/crick/?LM) and ensure you are logged in with your Crick credentials.
+- If you do not have access, request it through your lab or contact the CALM team.
