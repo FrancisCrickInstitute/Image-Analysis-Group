@@ -8,7 +8,7 @@ We support Ilastik on some of our [Image Analysis Workstations](https://intranet
 
 
 ## Using Ilastik on Nemo OnDemand (HPC)
-HPC Helpfully supports a pre-installed version of Ilastik on nemo, that you can use on Nemo Compute or OnDemand.
+HPC helpfully supports a pre-installed version of Ilastik on nemo, that you can use on Nemo Compute or OnDemand.
 
 ### To use Ilastik on OnDemand:
 
@@ -31,7 +31,7 @@ You can also download [this file](https://github.com/FrancisCrickInstitute/Image
 To load ilastik, as opposed to the above commands. 
 
 ## Using your own version of Ilastik on HPC
-You can also download and use your own version of Ilastik on HPC. To do so, download the linux version of Ilastik into your working directorry, and follow [these instructions](https://www.ilastik.org/documentation/basics/installation).
+You can also download and use your own version of Ilastik on HPC. To do so, download the linux version of Ilastik into your working directory, and follow [these instructions](https://www.ilastik.org/documentation/basics/installation).
 
 ## Troubleshooting
 

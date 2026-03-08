@@ -1,8 +1,8 @@
 # CellProfiler 
-CellProfiler is widely used here at the Crick to do segementation and quantification of images, without a lot of image analysis background. The documentation for CellProfiler can be found at the [CellProfiler Wiki](https://github.com/CellProfiler/CellProfiler/wiki).
+CellProfiler is widely used here at the Crick to do segmentation and quantification of images, without a lot of image analysis background. The documentation for CellProfiler can be found at the [CellProfiler Wiki](https://github.com/CellProfiler/CellProfiler/wiki).
 
 ## CellProfiler on HPC OnDemand
-We're beginning to experiementally support a GUI version of Cellprofiler on HPC OnDemand. This is very much a work in progress, but please feel free to beta test and tell us how it is working.
+We're beginning to experimentally support a GUI version of CellProfiler on HPC OnDemand. This is very much a work in progress, but please feel free to beta test and tell us how it is working.
 
 ### Requirements:
 HPC OnDemand account (Contact HPC on the #HPC Slack Channel) to get your account set up.

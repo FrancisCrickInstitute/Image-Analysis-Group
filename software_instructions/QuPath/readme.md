@@ -7,7 +7,7 @@
 * Start a new xterm (or type in cd $HOME)
 * type in **./Run_QuPath.sh**
 
-* At anypoint you want to run QuPath, you can run the script **./RunQuPath.sh** from your home directory (the first directory that opens when you start xterm)
+* At any point you want to run QuPath, you can run the script **./Run_QuPath.sh** from your home directory (the first directory that opens when you start xterm)
 
 * If you encounter an error when trying to run the installation script, it is likely due to the script not having execute permissions. To resolve this issue, run the following command
 ```
