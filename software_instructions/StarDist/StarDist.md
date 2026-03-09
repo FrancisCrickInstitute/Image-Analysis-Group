@@ -1,5 +1,5 @@
 # StarDist
-## FIJI Intallation
+## FIJI Installation
 To install StarDist in FIJI, you need to add the CSBDeep and StarDist plugins
 ## QuPath Installation
 ## Python Installation
