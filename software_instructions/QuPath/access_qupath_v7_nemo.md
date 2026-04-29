@@ -81,7 +81,7 @@ Follow these steps to navigate to your data:
 3. Navigate to the **"data"** folder.
 ![QuPath data location](../../assets/qupath_v6_access_data.png)
 
-4. You will now see the path you specified when launching QuPath in the terminal (step 4). For example, `/camp/lab/labname/yourusername`.
+4. You will now see the path you specified when launching QuPath in the terminal (step 4). For example, `/camp/lab/labname`.
 From here, you can navigate to your project files.
 
 **Note:** once you navigate into the `/data` folder, you won't be able to navigate backwards to other system locations, so make sure the `/path/to/your/data` includes all the folders you need to access in your QuPath project.
