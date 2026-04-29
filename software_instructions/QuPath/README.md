@@ -1,14 +1,16 @@
 # Accessing QuPath 0.7.0 on the HPC Cluster
 
-This guide will walk you through how to use **QuPath 0.7.0** on the Crick's HPC cluster. If you need help at any step, see [support section](#need-help-contact-us).
+This guide will walk you through how to use **QuPath 0.7.0** on the Crick's HPC cluster. If you need help at any step, see the [support section](#need-help-contact-us).
 
 This version of QuPath requires some libraries that are not compatible with NEMO's. To solve this, QuPath runs in a "container" – a self-contained environment that has everything it needs.
 So rather than installing it ourselves, it is available in the _apps_ folder in NEMO. These instructions will guide you on how to access it. 
 
+> **Looking for an older version?** Earlier guides are available for [QuPath 0.6](access_qupath_v6_nemo.md) and [QuPath 0.5.1](install_v051_HPC.md).
+
 ---
 
 ## What is QuPath 0.7.0?
-QuPath is a popular, open-source tool for digital pathology and whole slide imaging analysis. The new version (0.6.0) brings several new features and improvements.
+QuPath is a popular, open-source tool for digital pathology and whole slide imaging analysis. The new version (0.7.0) brings several new features and improvements.
 To learn more about what's new, see:
 [QuPath v0.7.0 release notes & features](https://github.com/qupath/qupath/blob/main/CHANGELOG.md#version-070)
 
@@ -16,8 +18,8 @@ To learn more about what's new, see:
 
 ### Step 1: Start a Desktop Session
 
-1. Log in to the HPC cluster via [Open OnDemand](https://ondemand.nemo.thecrick.org).
-2. Start a **Nemo desktop session** with the resources you need (CPU/GPU, memory...).
+1. Log in to the HPC cluster via [Open OnDemand](https://ondemand001.nemo.thecrick.org).
+2. Start a **Nemo desktop session**. For more information, see the [HPC Wiki](https://wiki.thecrick.org/display/HPCuserwiki/High+Performance+Computing+%28HPC%29+user+wiki).
 
 ---
 
