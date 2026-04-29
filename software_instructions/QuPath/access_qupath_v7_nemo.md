@@ -10,7 +10,7 @@ So rather than installing it ourselves, it is available in the _apps_ folder in 
 ## What is QuPath 0.7.0?
 QuPath is a popular, open-source tool for digital pathology and whole slide imaging analysis. The new version (0.6.0) brings several new features and improvements.
 To learn more about what's new, see:
-[QuPath v0.6.0 release notes & features](https://github.com/qupath/qupath/blob/main/CHANGELOG.md#version-070)
+[QuPath v0.7.0 release notes & features](https://github.com/qupath/qupath/blob/main/CHANGELOG.md#version-070)
 
 ---
 
