@@ -40,6 +40,8 @@ To learn more about what's new, see:
 
 - Once your desktop session starts, open a **terminal window**.
 
+![OnDemand open terminal screenshot](../../assets/open-terminal-xfce-od-screenshot.png)
+
 ---
 
 ### Step 3: Load the Singularity Module
