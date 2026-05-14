@@ -1,0 +1,9 @@
+# Sites that block CI requests but work in browsers
+https://www\.crick\.ac\.uk/.*
+https://www\.mathworks\.com/.*
+https://forum\.image\.sc/.*
+
+# Internal Crick network — unreachable from GitHub runners
+https://.*\.thecrick\.org/.*
+https://intranet\.crick\.ac\.uk/.*
+https://ppms\.eu/crick/.*
