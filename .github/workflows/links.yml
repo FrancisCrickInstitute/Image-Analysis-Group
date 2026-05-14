@@ -25,7 +25,6 @@ jobs:
             --verbose
             --no-progress
             --accept 200,206,429
-            --exclude-mail
             --max-concurrency 4
             './**/*.md'
             './**/*.html'
