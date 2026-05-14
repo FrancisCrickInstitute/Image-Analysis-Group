@@ -28,6 +28,13 @@ jobs:
             --max-concurrency 4
             './**/*.md'
             './**/*.html'
+            './**/*.sh'
+            './**/*.py'
+            './**/*.ijm'
+            './**/*.groovy'
+            './**/*.R'
+            './**/*.yml'
+            './**/*.yaml'
           fail: true       # Fail the workflow on broken links (red ✗ on the commit)
 
       # Optional: open an issue when the *scheduled* run finds problems,
