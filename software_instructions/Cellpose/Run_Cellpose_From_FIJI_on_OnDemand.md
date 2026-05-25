@@ -67,7 +67,7 @@ conda deactivate
 
 # Run Cellpose from FIJI
 It is possible to run Cellpose directly from FIJI. Instructions for installing the necessary FIJI Plugin can be found [here](https://github.com/BIOP/ijl-utilities-wrappers?tab=readme-ov-file#ib-fiji---cellpose-wrapper).
-Open FIJI. If you have never installed FIJI on your NEMO, follow [these instructions](https://github.com/FrancisCrickInstitute/Image-Analysis-Group/blob/master/Fiji/readme.md).
+Open FIJI. If you have never installed FIJI on your NEMO, follow [these instructions](../Fiji/readme.md).
 
 ## Setting up TrackMate Cellpose
 The FIJI plugin [Trackmate](https://imagej.net/plugins/trackmate/) has a detector module that relies on [cellpose](https://imagej.net/plugins/trackmate/detectors/trackmate-cellpose) to segment cells in 2D. It is not included in TrackMate and must be installed separately. We can use the `cellpose-fiji` environment we just created.
