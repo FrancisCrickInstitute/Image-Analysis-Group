@@ -1,5 +1,4 @@
 name: Check links
-
 on:
   push:
     branches: [master]
@@ -8,7 +7,6 @@ on:
   schedule:
     - cron: '0 6 * * 1'   # Weekly on Mondays at 06:00 UTC
   workflow_dispatch:      # Lets you run it manually from the Actions tab
-
 jobs:
   link-check:
     runs-on: ubuntu-latest
@@ -35,14 +33,30 @@ jobs:
             './**/*.R'
             './**/*.yml'
             './**/*.yaml'
-          fail: true       # Fail the workflow on broken links (red ✗ on the commit)
+          fail: true        # Fail the workflow on broken links
+          # lychee writes its own section to the Summary tab automatically
 
-      # Optional: open an issue when the *scheduled* run finds problems,
-      # so you hear about external link rot without it blocking PRs.
-      - name: Create issue from broken-link report
+      - name: Check file URLs don't return HTML
+        id: urlcheck
+        if: always()        # run even if lychee failed, so both sections appear
+        run: python3 .github/scripts/check_url_content.py .
+
+      # Combine both reports into one file for the scheduled issue
+      - name: Build combined report
+        if: failure() && github.event_name == 'schedule'
+        run: |
+          {
+            echo "## Broken links (lychee)"
+            echo
+            cat ./lychee/out.md 2>/dev/null || echo "_No lychee report produced._"
+            echo
+            cat ./url-content-report.md 2>/dev/null || echo "_No URL content report produced._"
+          } > ./combined-report.md
+
+      - name: Create issue from combined report
         if: failure() && github.event_name == 'schedule'
         uses: peter-evans/create-issue-from-file@v5
         with:
-          title: Broken links found
-          content-filepath: ./lychee/out.md
+          title: Link check problems
+          content-filepath: ./combined-report.md
           labels: broken-links, automated
