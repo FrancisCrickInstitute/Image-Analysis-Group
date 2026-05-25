@@ -1,6 +1,6 @@
 # How to install Cellpose for FIJI on OnDemand
 
-[Cellpose](https://github.com/MouseLand/cellpose) is a general model for cell and nuclear segmentation. The following is a simple, step-by-step guide to installing Cellpose on [OnDemand](https://openondemand.org/). More information on how to access OnDemand at the Crick can be found [in the wiki](https://wiki.thecrick.org/display/HPC/OnDemand).
+[Cellpose](https://github.com/MouseLand/cellpose) is a general model for cell and nuclear segmentation. The following is a simple, step-by-step guide to installing Cellpose on [OnDemand](https://www.openondemand.org). More information on how to access OnDemand at the Crick can be found [in the wiki](https://wiki.thecrick.org/display/HPC/OnDemand).
 
 > More detailed information on installing Cellpose can be found [here](https://github.com/MouseLand/cellpose?tab=readme-ov-file#installation) if needed.
 
