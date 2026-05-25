@@ -1,9 +1,7 @@
 #!/bin/bash
 
-#get file from https://downloads.micron.ox.ac.uk/fiji_update/mirrors/fiji-latest/fiji-linux64.zip
-
 current_directory=$(pwd)
-FIJI_URL="https://downloads.micron.ox.ac.uk/fiji_update/mirrors/fiji-latest/fiji-linux64.zip"
+FIJI_URL="https://downloads.micron.ox.ac.uk/fiji_update/mirrors/fiji-latest/fiji-latest-linux64-jdk.zip"
 filename=$(basename "$FIJI_URL")
 
 wget -O "$current_directory/$filename" "$FIJI_URL"
