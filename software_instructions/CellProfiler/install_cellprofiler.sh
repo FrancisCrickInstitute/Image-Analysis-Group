@@ -6,7 +6,7 @@ pip cache purge
 
 
 # URL of the YAML file on GitHub
-yaml_url="https://github.com/FrancisCrickInstitute/Image-Analysis-Group/blob/master/software_instructions/CellProfiler/cp_426.yml"
+yaml_url="./cp_426.yml"
 #file_name="cp_426.yml"
 
 # Folder to download the YAML file
