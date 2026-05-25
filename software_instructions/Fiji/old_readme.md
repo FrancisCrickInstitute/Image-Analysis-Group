@@ -1,5 +1,5 @@
 #### Installing FIJI on HPC the "easy way"
-* Download [install_FIJI_w_download.sh](https://github.com/FrancisCrickInstitute/CALM/blob/master/Fiji/install_FIJI_w_download.sh) into a folder in your nemo space to which you want to install FIJI
+* Download [install_FIJI_w_download.sh](./install_FIJI_w_download.sh) into a folder in your nemo space to which you want to install FIJI
 * Open up an OnDemand Desktop. For instructions on how to do this, see [this documentation](https://wiki.thecrick.org/display/HPC/OnDemand).
 * Open up a terminal in OnDemand (right click anywhere on the screen and open up xterm)
 * Navigate to the folder on Nemo in which you put **install_FIJI_w_download.sh**
