@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#get file from https://downloads.micron.ox.ac.uk/fiji_update/mirrors/fiji-latest/fiji-linux64.zip
-
 current_directory="$(pwd)"
 filepath="/flask/apps/stardist/StarDist_Course_Materials/FIJI_Dec_2025/fiji_linux.zip"
 filename="fiji_linux.zip"
