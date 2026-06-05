@@ -17,7 +17,6 @@ We are a team part of Advanced Light Microscopy (CALM). You can find information
 
 # Upcoming events
 External events:
-* [Introduction to image analysis workshop](https://www.rms.org.uk/rms-event-calendar/2026-events/introduction-to-image-analysis-2026.html), Cardiff (UK), 18-20/05/2026. Organised with the support of the Royal Microscopical Society.
 * [Intro to BioImage Analysis with Python for Life Scientists](https://www.eurobioimaging.eu/events/evolve-distributed-in-person-training-course-intro-to-bioimaging-analysis-with-python-for-life-scientists/), London (UK), 23-25/06/2026. Organised in collaboration with EuroBioimaging.
 * [Microscopy: multi-dimensional imaging and analysis](https://www.crick.ac.uk/whats-on/microscopy-multi-dimensional-imaging-and-analysis-0), London (UK), 14-18/09/2026.
 * [Introduction to image analysis workshop](https://www.crick.ac.uk/whats-on/introduction-to-image-analysis-1), London (UK), 02-04/11/2026.
