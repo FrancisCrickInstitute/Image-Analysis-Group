@@ -77,7 +77,7 @@ echo "Loaded modules"
 cd $download_folder
 echo "$PWD"
 
-mamba env create --file cp_426.yml
+conda env create --file cp_426.yml
 
 # Check if the Conda environment exists
 if conda env list | grep -q "$environment_name"; then
