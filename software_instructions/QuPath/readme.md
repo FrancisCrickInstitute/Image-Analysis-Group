@@ -140,6 +140,9 @@ Right click anywhere in your Desktop, and select "Create Launcher".
 * **Command**: select the folder where `run_qupath_v07/sh` lives.
 * **Icon** (optional): you can download the logo [here](./qupath_logo.png), add it somewhere in your NEMO storage, and select that folder in window finder.
 
+<p><img src="../../assets/qupath_launcher_screenshot.png" width="25%" alt="QuPath Launcher screenshot"></p>
+
+
 🎉 Click _Save_ and you should be all set! 🎉
 
 ---
