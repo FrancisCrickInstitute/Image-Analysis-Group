@@ -78,72 +78,65 @@ singularity run -B /path/to/your/data:/data /camp/apps/containers/QuPath/0.7.0/q
 
 ---
 ## Shortcut: add the QuPath icon onto your NEMO Desktop
-Every time you want to access the QuPath container via [OnDemand](https://ondemand001.nemo.thecrick.org/), you'll have to input the code in [Step 4](#step-4-run-qupath) above. To avoid interacting with the terminal every time, we can install a QuPath icon onto your NEMO Desktop (one time only!).
+Instead of entering terminal commands every time you launch QuPath via [OnDemand](https://ondemand001.nemo.thecrick.org/), you can create a one-time desktop launcher shortcut.
 
 ### Step 1: Start an Xfce session
-Ensure you have "Xfce" selected when requesting a session in OnDemand. 
+Ensure "Xfce" is selected when requesting a session in OnDemand. 
 <p><img src="../../assets/ondemand_xfce_session_screenshot.png" width="50%" alt="OnDemand Xfce session screenshot"></p>
 
-### Step 2: Open the terminal 
-Once your desktop session starts, open a **terminal window**.
+### Step 2: Open the Terminal 
+Once your desktop session starts, open a **Terminal** window.
 <p><img src="../../assets/open-terminal-xfce-od-screenshot.png" width="75%" alt="OnDemand Terminal screenshot"></p>
 
-### Step 3: Open the text editor
-We now need to create a little script that contains the commands run in the instructions above. Open the text editor (`nano`) and create a file named `run_qupath_v07.sh` by typing:
+### Step 3: Create the launch script
+Open the `nano` text editor to create a script named `run_qupath_v07.sh` in your home directory:
 ```bash
 nano ~/run_qupath_v07.sh
 ```
-and click Enter.
 
-### Step 4: Input the commands to open QuPath
-The _nano_ text editor will open a blank text file. Input the two lines of code that you normally type to open the QuPath container (see [Step 4](#step-4-run-qupath)). 
+### Step 4: Add the execution commands
+The _nano_ text editor will open a blank text file. Paste the commands required to launch the container into the editor (see [Step 4](#step-4-run-qupath)). 
 ```bash
 ml Singularity/3.11.3
 singularity run --nv -B /path/to/your/data:/data /camp/apps/containers/QuPath/0.7.0/qupath_0.7.0.sif
 ```
 
-> ⚠️: ensure that `path/to/your/data` is the location of your working directory inside your lab's NEMO space (e.g., `nemo/lab/labname/yourusername`. If you input a very specific folder, you will not be able to access anything _before_ that folder.
+> ⚠️: Replace `path/to/your/data` with your lab's working directory on NEMO (e.g., `nemo/lab/labname/yourusername`. You will only be able to access filed inside the directory you bind here.
 
-### Step 5: Save the new file
-* Exit the text editor with '^X'.
-* You will be prompted to select whether you want to save the file, type 'Y'.
-* Then click Enter to save the .sh file with its current name.
+### Step 5: Save and exit
+* Press `^X` to exit.
+* Type `Y` to confirm saving changes. 
+* Press `Enter` to keep the default filename.
 
-### Step 6: Ensure the file was successfully created
-List all the files in your home directory by typing:
+### Step 6: Make the script executable and test
+Grant execute permissions to the script:
 ```bash
-ls ~
-```
-You should see a file named `run_qupath_v07.sh`.
-
-### Step 7: Add execute permissions to the file
-Now run:
-```bash
-chmod +x run_qupath_v07.sh 
+chmod +x ~/run_qupath_v07.sh 
 ```
 
-Ensure that the file now appears in green when running:
+Verify that the file exists and is executable (it should appear in green):
 ```bash
-ls ~
+ls -l ~/run_qupath_v07.sh
 ```
 
-And check it opens QuPath successfully:
+And check it launches QuPath successfully:
 ```bash
-./run_qupath_v07.sh
+~/run_qupath_v07.sh
 ```
 
-### Step 8: Add the shortcut icon onto your Desktop
+### Step 7: Create the desktop launcher
 Right click anywhere in your Desktop, and select "Create Launcher".
 <p><img src="../../assets/ondemand_create_launcher_screenshot.png" width="50%" alt="OnDemand create Launcher screenshot"></p>
 
+Fill out the following fields:
 * **Name**: "QuPath v0.7"
-* **Command**: select the folder where `run_qupath_v07/sh` lives.
-* **Icon** (optional): you can download the logo [here](./qupath_logo.png), add it somewhere in your NEMO storage, and select that folder in window finder.
+* **Command**: click the file browser icon and select the folder where `run_qupath_v07/sh` lives.
+* **Icon** (optional): download the QuPath logo [here](./qupath_logo.png), save it in your NEMO storage, and select it via the icon selector.
 
 <p><img src="../../assets/qupath_launcher_screenshot.png" width="25%" alt="QuPath Launcher screenshot"></p>
 
 
-🎉 Click _Save_ and you should be all set! 🎉
+🎉 Double-click your new desktop icon anytime to launch QuPath directly! 🎉
 
 ---
 
