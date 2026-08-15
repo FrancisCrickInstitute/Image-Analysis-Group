@@ -41,7 +41,7 @@ To learn more about what's new, see:
 
 - Once your desktop session starts, open a **terminal window**.
 
-![OnDemand open terminal screenshot](../../assets/open-terminal-xfce-od-screenshot.png)
+<p><img src="../../assets/open-terminal-xfce-od-screenshot.png" width="75%" alt="OnDemand Terminal screenshot"></p>
 
 ---
 
