@@ -85,7 +85,7 @@ Ensure "Xfce" is selected when requesting a session in OnDemand.
 <p><img src="../../assets/ondemand_xfce_session_screenshot.png" width="50%" alt="OnDemand Xfce session screenshot"></p>
 
 ### Step 2: Open the Terminal 
-Once your desktop session starts, open a **Terminal** window.
+Once your desktop session starts, open a **Terminal** window, either by right-clicking and selecting "Open Terminal Here" or by clicking on the relevant icon in the bottom menu bar.
 <p><img src="../../assets/open-terminal-xfce-od-screenshot.png" width="75%" alt="OnDemand Terminal screenshot"></p>
 
 ### Step 3: Create the launch script
@@ -95,7 +95,7 @@ nano ~/run_qupath_v07.sh
 ```
 
 ### Step 4: Add the execution commands
-The _nano_ text editor will open a blank text file. Paste the commands required to launch the container (from [Step 4](#step-4-run-qupath)). 
+The _nano_ text editor will open a blank text file. Paste the commands required to launch the container (from [Step 4](#step-4-run-qupath) in the instructions above). 
 ```bash
 ml Singularity/3.11.3
 singularity run --nv -B /path/to/your/data:/data /camp/apps/containers/QuPath/0.7.0/qupath_0.7.0.sif
@@ -104,7 +104,7 @@ singularity run --nv -B /path/to/your/data:/data /camp/apps/containers/QuPath/0.
 > ⚠️: Replace `path/to/your/data` with your lab's working directory on NEMO (e.g., `nemo/lab/labname/yourusername`. You will only be able to access files inside the directory you bind here.
 
 ### Step 5: Save and exit
-* Press `^X` to exit.
+* Press `^X` (or `Ctrl + X`) to exit.
 * Type `Y` to confirm saving changes. 
 * Press `Enter` to keep the default filename.
 
@@ -130,7 +130,7 @@ Right click anywhere in your Desktop, and select "Create Launcher".
 
 Fill out the following fields:
 * **Name**: "QuPath v0.7"
-* **Command**: click the file browser icon and select the folder where `run_qupath_v07/sh` lives.
+* **Command**: click the file browser icon and select the folder where `run_qupath_v07.sh` lives.
 * **Icon** (optional): download the QuPath logo [here](./qupath_logo.png), save it in your NEMO storage, and select it via the icon selector.
 
 <p><img src="../../assets/qupath_launcher_screenshot.png" width="25%" alt="QuPath Launcher screenshot"></p>
