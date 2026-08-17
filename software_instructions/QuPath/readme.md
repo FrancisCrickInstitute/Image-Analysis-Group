@@ -95,13 +95,13 @@ nano ~/run_qupath_v07.sh
 ```
 
 ### Step 4: Add the execution commands
-The _nano_ text editor will open a blank text file. Paste the commands required to launch the container into the editor (see [Step 4](#step-4-run-qupath)). 
+The _nano_ text editor will open a blank text file. Paste the commands required to launch the container (from [Step 4](#step-4-run-qupath)). 
 ```bash
 ml Singularity/3.11.3
 singularity run --nv -B /path/to/your/data:/data /camp/apps/containers/QuPath/0.7.0/qupath_0.7.0.sif
 ```
 
-> ⚠️: Replace `path/to/your/data` with your lab's working directory on NEMO (e.g., `nemo/lab/labname/yourusername`. You will only be able to access filed inside the directory you bind here.
+> ⚠️: Replace `path/to/your/data` with your lab's working directory on NEMO (e.g., `nemo/lab/labname/yourusername`. You will only be able to access files inside the directory you bind here.
 
 ### Step 5: Save and exit
 * Press `^X` to exit.
@@ -119,7 +119,7 @@ Verify that the file exists and is executable (it should appear in green):
 ls -l ~/run_qupath_v07.sh
 ```
 
-And check it launches QuPath successfully:
+And then check it launches QuPath successfully:
 ```bash
 ~/run_qupath_v07.sh
 ```
@@ -136,7 +136,8 @@ Fill out the following fields:
 <p><img src="../../assets/qupath_launcher_screenshot.png" width="25%" alt="QuPath Launcher screenshot"></p>
 
 
-🎉 Double-click your new desktop icon anytime to launch QuPath directly! 🎉
+
+🎉 **Double-click your new desktop icon anytime to launch QuPath directly!** 🎉
 
 ---
 
