@@ -31,3 +31,32 @@ For internal events, please check [our events page](https://intranet.crick.ac.uk
 
 # Software instructions (internal)
 You can find information on how to install software on OnDemand following the relevant instructions [here](./software_instructions/OnDemand/OnDemand.md).
+
+# Projects
+A selection of tools and pipelines we develop and maintain across GitHub.
+
+## Spatial & multiplex imaging
+* [CellSurvey](https://github.com/FrancisCrickInstitute/CellSurvey) – GPU-accelerated Python pipeline for image-based spatial omics, built on Sopa and SpatialData
+
+## Quality control
+* [CrosstalkPy](https://github.com/FrancisCrickInstitute/CrosstalkPy) – A Python package to detect cross-talk (channel bleed-through) in microscopy images
+* [py-bioimage-qc](https://github.com/FrancisCrickInstitute/py-bioimage-qc) – Quality control for bioimage data
+
+## Image analysis
+* [Simple-3D-Nuclear-Intensity-Quantification](https://github.com/FrancisCrickInstitute/Simple-3D-Nuclear-Intensity-Quantification) – Quantification of nuclear intensity in 3D images
+* [Object-Midline-Detection](https://github.com/FrancisCrickInstitute/Object-Midline-Detection) – Detection of object midlines in bioimages
+* [cell-classifier](https://github.com/FrancisCrickInstitute/cell-classifier) – Cell classification tools
+* [brainsaw-data-processing](https://github.com/FrancisCrickInstitute/brainsaw-data-processing) – Data processing for BRAINSAW
+* [pancreatic-tissue-integrity-qupath](https://github.com/FrancisCrickInstitute/pancreatic-tissue-integrity-qupath) – QuPath tools for assessing pancreatic tissue integrity
+
+## Tools & utilities
+* [Image_Analysis_Template](https://github.com/FrancisCrickInstitute/Image_Analysis_Template) – Template for image analysis projects
+* [Data-Prospector](https://github.com/FrancisCrickInstitute/Data-Prospector) – AI pipeline that explores a dataset from many angles at once
+* [biabot](https://github.com/FrancisCrickInstitute/biabot) – AI triage chatbot for bioimage analysis projects
+
+## Training & education
+* [napari-tutorial](https://github.com/FrancisCrickInstitute/napari-tutorial) – Modular course on using napari for image visualisation and analysis
+* [introduction-to-image-analysis](https://github.com/FrancisCrickInstitute/introduction-to-image-analysis) – Intro to image analysis training workshop
+* [Enhancing-Reproducibility](https://github.com/FrancisCrickInstitute/Enhancing-Reproducibility) – Notebooks on reproducible statistics in bioimage analysis
+
+See the [full list of our repositories](https://github.com/orgs/FrancisCrickInstitute/teams/crick-image-analysis-group/repositories) on GitHub.
