@@ -40,7 +40,7 @@ A selection of tools and pipelines we develop and maintain across GitHub.
 
 ## Quality control
 * [CrosstalkPy](https://github.com/FrancisCrickInstitute/CrosstalkPy) – A Python package to detect cross-talk (channel bleed-through) in microscopy images
-* [py-bioimage-qc](https://github.com/FrancisCrickInstitute/py-bioimage-qc) – Quality control for bioimage data
+* [flag-qc](https://github.com/FrancisCrickInstitute/flag-qc) – Quality control for bioimage data
 
 ## Image analysis
 * [Simple-3D-Nuclear-Intensity-Quantification](https://github.com/FrancisCrickInstitute/Simple-3D-Nuclear-Intensity-Quantification) – Quantification of nuclear intensity in 3D images

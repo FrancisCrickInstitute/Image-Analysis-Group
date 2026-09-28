@@ -7,3 +7,6 @@ https://forum\.image\.sc/.*
 https://.*\.thecrick\.org/.*
 https://intranet\.crick\.ac\.uk/.*
 https://ppms\.eu/crick/.*
+
+# Private GitHub repositories — return 404 to unauthenticated CI
+https://github\.com/FrancisCrickInstitute/pancreatic-tissue-integrity-qupath
