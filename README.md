@@ -7,7 +7,6 @@ You can contact us using this email address: bioimage-analysis@crick.ac.uk. If y
 We are a team part of Advanced Light Microscopy (CALM). You can find information about each of us below!
 
 * [Dave Barry](https://www.crick.ac.uk/research/find-a-researcher/david-barry)
-* [Deniz Bekat](https://www.crick.ac.uk/research/find-a-researcher/deniz-bekat)
 * [Rocco D’Antuono](https://www.crick.ac.uk/research/find-a-researcher/rocco-dantuono)
 * [Todd Fallesen](https://www.crick.ac.uk/research/find-a-researcher/todd-fallesen)
 * [Kenneth Ho](https://www.crick.ac.uk/research/find-a-researcher/kenneth-ho)
@@ -17,8 +16,6 @@ We are a team part of Advanced Light Microscopy (CALM). You can find information
 
 # Upcoming events
 External events:
-* [Microscopy: multi-dimensional imaging and analysis](https://www.crick.ac.uk/whats-on/microscopy-multi-dimensional-imaging-and-analysis-0), London (UK), 14-18/09/2026.
-* [Introduction to CellProfiler for image analysis](https://www.crick.ac.uk/whats-on/introduction-to-cellprofiler-for-image-analysis-3), London (UK), 02/10/2026.
 * [Introduction to QuPath for image analysis](https://www.crick.ac.uk/whats-on/introduction-to-qupath-for-image-analysis), London (UK), 12/10/2026. Please note, this course is only open to Crick and university partners staff and students.
 * [Introduction to image analysis workshop](https://www.crick.ac.uk/whats-on/introduction-to-image-analysis-1), London (UK), 02-04/11/2026.
 * [Crick BioImage Analysis Symposium (CBIAS)](https://www.crick.ac.uk/whats-on/crick-bioimage-analysis-symposium-2026), London (UK), 23-24/11/2026.
