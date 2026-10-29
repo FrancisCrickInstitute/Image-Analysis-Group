@@ -1,3 +1,10 @@
+---
+title: Cellpose
+parent: Software Instructions
+nav_order: 2
+nav_exclude: false
+---
+
 # Cellpose
 
 **Cellpose** is a general purpose, deep learning-based segmentation algorithm for biological images ([Cellpose on GitHub](https://github.com/MouseLand/cellpose)).

@@ -1,3 +1,10 @@
+---
+title: ilastik
+parent: Software Instructions
+nav_order: 4
+nav_exclude: false
+---
+
 # Ilastik
 You can download Ilastik [here](https://www.ilastik.org/). 
 

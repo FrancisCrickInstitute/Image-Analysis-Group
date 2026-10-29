@@ -1,3 +1,10 @@
+---
+title: StarDist
+parent: Software Instructions
+nav_order: 7
+nav_exclude: false
+---
+
 # StarDist
 ## FIJI Intallation
 To install StarDist in FIJI, you need to add the CSBDeep and StarDist plugins

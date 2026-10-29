@@ -1,5 +1,20 @@
 title: Image Analysis Group
-description:
-show_downloads: false
-google_analytics:
-theme: jekyll-theme-slate
+description: Software instructions and training material for bioimage analysis at the Francis Crick Institute
+url: https://franciscrickinstitute.github.io
+baseurl: /Image-Analysis-Group
+
+remote_theme: just-the-docs/just-the-docs
+
+search_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Hide every page from the sidebar by default, then opt the curated
+# documentation pages back in via front matter. This keeps the training
+# course content (which lives in the same tree) out of the navigation.
+defaults:
+  - scope:
+      path: ""
+    values:
+      nav_exclude: true

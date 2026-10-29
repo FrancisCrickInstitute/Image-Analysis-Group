@@ -1,3 +1,10 @@
+---
+title: QuPath
+parent: Software Instructions
+nav_order: 6
+nav_exclude: false
+---
+
 # Accessing QuPath 0.7.0 on the HPC Cluster
 
 This guide will walk you through how to use **QuPath 0.7.0** on the Crick's HPC cluster. If you need help at any step, see the [support section](#need-help-contact-us).
