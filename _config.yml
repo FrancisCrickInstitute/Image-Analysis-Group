@@ -18,3 +18,14 @@ defaults:
       path: ""
     values:
       nav_exclude: true
+
+# Keep the large binary course/training data out of the GitHub Pages build.
+# These folders hold .tif images, presentations and notebooks that users
+# download from the repo (raw URLs) rather than read on the site. Deploying
+# them inflates the site to ~1.8 GB and times out the deploy step.
+exclude:
+  - software_instructions/CellProfiler/CellProfilerCourse
+  - software_instructions/StarDist/Course_Data
+  - software_instructions/StarDist/StarDist_Course_Feb_2024
+  - software_instructions/StarDist/Example_Data
+  - software_instructions/StarDist/Presentations

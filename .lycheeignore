@@ -10,3 +10,7 @@ https://ppms\.eu/crick/.*
 
 # Private GitHub repositories — return 404 to unauthenticated CI
 https://github\.com/FrancisCrickInstitute/pancreatic-tissue-integrity-qupath
+
+# Jekyll `url` config in _config.yml — the bare org domain has no user/org
+# Pages site, so it 404s. The real site lives at .../Image-Analysis-Group/.
+https://franciscrickinstitute\.github\.io.*
