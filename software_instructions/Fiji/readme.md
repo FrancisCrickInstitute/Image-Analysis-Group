@@ -37,9 +37,9 @@ Example:
 cd /nemo/home/your-user-name/working/your-user-name/software/
 ```
 2. Download the FIJI installation script by clicking the link below:
- 👉 [install_FIJI_w_download.sh](https://github.com/FrancisCrickInstitute/Image-Analysis-Group/blob/master/software_instructions/Fiji/install_FIJI_w_download.sh)
+ 👉 [install_FIJI_w_download.sh](https://raw.githubusercontent.com/FrancisCrickInstitute/Image-Analysis-Group/master/software_instructions/Fiji/install_FIJI_w_download.sh)
 If you want to use trackmate use this version:
- 👉[install_FIJI_trackmate.sh](https://github.com/FrancisCrickInstitute/Image-Analysis-Group/blob/master/software_instructions/Fiji/install_FIJI_trackmate.sh)
+ 👉 [install_FIJI_trackmate.sh](https://raw.githubusercontent.com/FrancisCrickInstitute/Image-Analysis-Group/master/software_instructions/Fiji/install_FIJI_trackmate.sh)
 
 
 ---

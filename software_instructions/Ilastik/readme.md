@@ -24,7 +24,7 @@ HPC Helpfully supports a pre-installed version of Ilastik on nemo, that you can 
       * ./run_ilastik.sh
 
 
-You can also download [this file](https://github.com/FrancisCrickInstitute/Image-Analysis-Group/blob/master/software_instructions/Ilastik/ilastik.sh), which is a short batch script that does the above commands. You can save it to your home directory and then type 
+You can also download [this file](https://raw.githubusercontent.com/FrancisCrickInstitute/Image-Analysis-Group/master/software_instructions/Ilastik/ilastik.sh), which is a short batch script that does the above commands. You can save it to your home directory and then type 
 
       ./ilastik.sh
 

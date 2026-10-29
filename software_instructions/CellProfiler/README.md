@@ -11,13 +11,10 @@ You may find it useful to have your .conda and .cache home directories soft-link
 
 A bit of linux/command line experience would help for now. We're hoping to make it easier
 ### Files:
-There are three files that are used for installation and running. You can download them from the [CellProfiler folder](https://github.com/FrancisCrickInstitute/Image-Analysis-Group/tree/master/software_instructions/CellProfiler).
-
-install_cellprofiler.sh
-
-run_cellprofiler.sh
-
-Download_CellProfiler_Plugins.sh
+There are three files that are used for installation and running:
+- [install_cellprofiler.sh](https://raw.githubusercontent.com/FrancisCrickInstitute/Image-Analysis-Group/master/software_instructions/CellProfiler/install_cellprofiler.sh)
+- [run_cellprofiler.sh](https://raw.githubusercontent.com/FrancisCrickInstitute/Image-Analysis-Group/master/software_instructions/CellProfiler/run_cellprofiler.sh)
+- [Download_CellProfiler_Plugins.sh](https://raw.githubusercontent.com/FrancisCrickInstitute/Image-Analysis-Group/master/software_instructions/CellProfiler/Download_CellProfiler_Plugins.sh)
 
 
 
