@@ -1,5 +1,14 @@
 Images are essentially grids of numbers and image analysis allows for the translation of these numbers into insights. Talk to an image analyst prior to acquiring any image data - we're happy to provide all the training you need.
 
+## Table of Contents
+- [Contacts](#contacts)
+- [Who We Are](#who-we-are)
+- [Upcoming Events](#upcoming-events) *(click to expand)*
+- [Software Instructions](#software-instructions-internal)
+- [Projects](#projects) *(click to expand)*
+
+---
+
 # Contacts
 You can contact us using this email address: bioimage-analysis@crick.ac.uk. If you work at the Crick, you can also reach out via Slack (#image-analysis) or stop by the Bioinformatics Suite in 3NE - we're right in front of the doors as you walk in.
 
@@ -15,7 +24,9 @@ We are a team part of Advanced Light Microscopy (CALM). You can find information
 * [Alicja Skórkowska](https://www.crick.ac.uk/research/find-a-researcher/alicja-skorkowska)
 
 # Upcoming events
-External events:
+<details>
+<summary><strong>External Events (Click to Expand)</strong></summary>
+
 * [Introduction to QuPath for image analysis](https://www.crick.ac.uk/whats-on/introduction-to-qupath-for-image-analysis), London (UK), 12/10/2026. Please note, this course is only open to Crick and university partners staff and students.
 * [Introduction to image analysis workshop](https://www.crick.ac.uk/whats-on/introduction-to-image-analysis-1), London (UK), 02-04/11/2026.
 * [Crick BioImage Analysis Symposium (CBIAS)](https://www.crick.ac.uk/whats-on/crick-bioimage-analysis-symposium-2026), London (UK), 23-24/11/2026.
@@ -24,6 +35,8 @@ External events:
 * [Introduction to image analysis using Python and Jupyter notebooks](https://www.crick.ac.uk/whats-on/introduction-to-image-analysis-using-python-and-jupyter-notebooks), London (UK), 10/02/2027. Please note, this course is only open to Crick and university partners staff and students.
 * [Introduction to image analysis with ilastik](https://www.crick.ac.uk/whats-on/introduction-to-image-analysis-with-ilastik). London (UK), 19/03/2027. Please note, this course is only open to Crick and university partners staff and students.
 
+</details>
+
 For internal events, please check [our events page](https://intranet.crick.ac.uk/group/514/events) on the IntraNet.
 
 # Software instructions (internal)
@@ -31,6 +44,9 @@ You can find information on how to install software on OnDemand following the re
 
 # Projects
 A selection of tools and pipelines we develop and maintain across GitHub.
+
+<details>
+<summary><strong>Projects by Category (Click to Expand)</strong></summary>
 
 ## Spatial & multiplex imaging
 * [CellSurvey](https://github.com/FrancisCrickInstitute/CellSurvey) – GPU-accelerated Python pipeline for image-based spatial omics, built on Sopa and SpatialData
@@ -55,5 +71,7 @@ A selection of tools and pipelines we develop and maintain across GitHub.
 * [napari-tutorial](https://github.com/FrancisCrickInstitute/napari-tutorial) – Modular course on using napari for image visualisation and analysis
 * [introduction-to-image-analysis](https://github.com/FrancisCrickInstitute/introduction-to-image-analysis) – Intro to image analysis training workshop
 * [Enhancing-Reproducibility](https://github.com/FrancisCrickInstitute/Enhancing-Reproducibility) – Notebooks on reproducible statistics in bioimage analysis
+
+</details>
 
 See the [full list of our repositories](https://github.com/orgs/FrancisCrickInstitute/teams/crick-image-analysis-group/repositories) on GitHub.
