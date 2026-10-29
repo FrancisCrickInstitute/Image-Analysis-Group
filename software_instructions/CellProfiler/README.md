@@ -5,7 +5,6 @@ nav_order: 1
 nav_exclude: false
 ---
 
-# CellProfiler 
 CellProfiler is widely used here at the Crick to do segementation and quantification of images, without a lot of image analysis background. The documentation for CellProfiler can be found at the [CellProfiler Wiki](https://github.com/CellProfiler/CellProfiler/wiki).
 
 ## CellProfiler on HPC OnDemand

@@ -5,7 +5,6 @@ nav_order: 5
 nav_exclude: false
 ---
 
-# Accessing Imaris Floating Licenses
 Imaris is a commercial software package for visualisation, segmentation, and quantitation of 3D and 4D imaging data. CALM provides a limited number of floating licenses for Imaris.
 
 ## CALM workstations and Virtual Machines

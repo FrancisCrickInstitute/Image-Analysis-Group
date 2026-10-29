@@ -5,8 +5,6 @@ nav_order: 2
 nav_exclude: false
 ---
 
-# Cellpose
-
 **Cellpose** is a general purpose, deep learning-based segmentation algorithm for biological images ([Cellpose on GitHub](https://github.com/MouseLand/cellpose)).
 
 This folder contains guides and resources to help you use Cellpose on the Crick's HPC cluster, with and without Jupyter notebooks, plus demo data and example notebooks.

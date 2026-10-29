@@ -5,26 +5,12 @@ nav_order: 6
 nav_exclude: false
 ---
 
-# Accessing QuPath 0.7.0 on the HPC Cluster
-
 This guide will walk you through how to use **QuPath 0.7.0** on the Crick's HPC cluster. If you need help at any step, see the [support section](#need-help-contact-us).
 
 This version of QuPath requires some libraries that are not compatible with NEMO's. To solve this, QuPath runs in a "container" – a self-contained environment that has everything it needs.
 So rather than installing it ourselves, it is available in the _apps_ folder in NEMO. These instructions will guide you on how to access it. 
 
 > **Looking for an older version?** Earlier guides are available for [QuPath 0.6](access_qupath_v6_nemo.md) and [QuPath 0.5.1](install_v051_HPC.md).
-
----
-
-## Quick Navigation
-
-- [What is QuPath 0.7.0?](#what-is-qupath-070)
-- [Instructions to Access QuPath v0.7 with OnDemand](#instructions-to-access-qupath-v07-with-ondemand)
-- [Shortcut: add the QuPath icon onto your NEMO Desktop](#shortcut-add-the-qupath-icon-onto-your-nemo-desktop)
-- [How to Set Up Your User Directory](#how-to-set-up-your-user-directory)
-- [Accessing OMERO from QuPath](#accessing-omero-from-qupath)
-- [Accessing Your Data in QuPath](#accessing-your-data-in-qupath)
-- [Need Help? Contact Us!](#need-help-contact-us)
 
 ---
 

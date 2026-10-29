@@ -5,7 +5,6 @@ nav_order: 3
 nav_exclude: false
 ---
 
-# Installing FIJI on OnDemand
 [FIJI](https://imagej.net/software/fiji/) (*FIji Is Just ImageJ*) is pre-installed on NEMO, but the shared version does **not allow plugin installation**.
 If you need to install plugins or customise FIJI for your analysis, follow these steps to install your own version.
 
