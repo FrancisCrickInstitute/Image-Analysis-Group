@@ -2,6 +2,7 @@
 https://www\.crick\.ac\.uk/.*
 https://www\.mathworks\.com/.*
 https://forum\.image\.sc/.*
+https://downloads\.micron\.ox\.ac\.uk/.*
 
 # Internal Crick network — unreachable from GitHub runners
 https://.*\.thecrick\.org/.*

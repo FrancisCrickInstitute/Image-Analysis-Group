@@ -34,5 +34,3 @@ A selection of tools and pipelines we develop and maintain across GitHub.
 * [Napari Tutorial](https://github.com/FrancisCrickInstitute/napari-tutorial) – Modular napari course
 * [Intro to Image Analysis](https://github.com/FrancisCrickInstitute/introduction-to-image-analysis) – Training workshop
 * [Reproducible Statistics](https://github.com/FrancisCrickInstitute/Enhancing-Reproducibility) – Notebooks on reproducibility
-
-> Explore the [full list of our repositories](https://github.com/orgs/FrancisCrickInstitute/teams/crick-image-analysis-group/repositories) on GitHub.
