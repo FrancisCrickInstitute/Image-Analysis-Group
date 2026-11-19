@@ -1,5 +1,5 @@
 #!/bin/bash
-
+##Code written by Todd Fallesen, CALM @Crick.  todd.fallesen@crick.ac.uk.  If you have any questions, please hit us up. 
 # Load anaconda and init
 source ~/.bashrc
 ml Anaconda3
