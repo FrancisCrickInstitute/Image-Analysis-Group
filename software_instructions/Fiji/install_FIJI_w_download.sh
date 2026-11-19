@@ -1,5 +1,7 @@
 #!/bin/bash
 
+##Code written by Todd Fallesen, CALM @Crick.  todd.fallesen@crick.ac.uk.  If you have any questions, please hit us up. 
+
 current_directory="$(pwd)"
 FIJI_URL="https://downloads.imagej.net/fiji/archive/20250514-1117/fiji-linux64.zip"
 filename="$(basename "$FIJI_URL")"
