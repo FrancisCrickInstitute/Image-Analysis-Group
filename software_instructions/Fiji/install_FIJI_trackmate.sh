@@ -1,5 +1,7 @@
 #!/bin/bash
 
+##Code written by Todd Fallesen, CALM @Crick.  todd.fallesen@crick.ac.uk.  If you have any questions, please hit us up. 
+
 current_directory="$(pwd)"
 filepath="/flask/apps/stardist/StarDist_Course_Materials/FIJI_Dec_2025/fiji_linux.zip"
 filename="fiji_linux.zip"
